@@ -1,6 +1,6 @@
-# Get a vaccine appointment
+# Get a vaccine appointment at healow
 This script repeatedly clicks to check for an appointment. Alert when available slots show up.
-Use on this website: https://<redacted_contact_me_for_details>
+Use on healow's website: https://<redacted_contact_me_for_details>
   
 Instructions:
 1. Navigate to the appointment website
