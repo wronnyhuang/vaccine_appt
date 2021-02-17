@@ -6,4 +6,4 @@ Instructions:
 1. Navigate to the appointment website
 2. Cmd-shift-c to open developer mode in chrome
 3. Open console tab
-4. Paste and run this script
+4. Paste and run this script [main.js](main.js)
