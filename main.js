@@ -18,17 +18,15 @@ function sleep(ms) {
 }
 
 var button = document.getElementById("vaccineinfo-MD");
-var slots = document.getElementById("covid-nodata");
+var booked = document.getElementById("covid-nodata");
 var keepgoing = 1;
 for (let i = 0; i < 999999; i++) {
     button.click();
     for (let j = 0; j < 6; j++) {
         await sleep(1000);
         console.log("trial " + i + ", ping " + j);
-        if (slots.children.length > 0) {
-            console.log("there exist element(s)...")
-            if (slots.children[0].id == "OALoaderDiv") {
-                console.log("it's just the loader");
+        if (booked == ) {
+		console.log("nothing");
             } else {
                 beep(999, 200, 10000);
                 alert("THERE REALLY IS SOMETHING!!!");
