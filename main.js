@@ -17,8 +17,8 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-var button = document.getElementById("time-pref-evening");
-var slots = document.getElementById("apptTimeSlotsXhrDiv");
+var button = document.getElementById("vaccineinfo-MD");
+var slots = document.getElementById("covid-nodata");
 var keepgoing = 1;
 for (let i = 0; i < 999999; i++) {
     button.click();
