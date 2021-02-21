@@ -1,6 +1,6 @@
-# Get a vaccine appointment via CVS
+# Get a vaccine appointment via healow (Rockville)
 This script repeatedly clicks to check for an appointment. Alert when available slots show up.
-Use on the appointment page for any [Maryland CVS](https://www.cvs.com/immunizations/covid-19-vaccine).
+Use on the appointment page for Rockville AHC Clinic (https://healow.com/apps/jsp/webview/openaccess/widgets/uc/ucFacility.jsp?apu_id=305868&facility_id=111).
   
 Instructions:
 1. Navigate to the appointment website
