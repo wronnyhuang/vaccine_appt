@@ -17,16 +17,18 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-var button = document.getElementById("vaccineinfo-MD");
-var booked = document.getElementById("covid-nodata");
+var button = document.getElementById("time-pref-evening");
+var slots = document.getElementById("apptTimeSlotsXhrDiv");
 var keepgoing = 1;
 for (let i = 0; i < 999999; i++) {
     button.click();
     for (let j = 0; j < 6; j++) {
         await sleep(1000);
         console.log("trial " + i + ", ping " + j);
-        if (booked == ) {
-		console.log("nothing");
+        if (slots.children.length > 0) {
+            console.log("there exist element(s)...")
+            if (slots.innerHTML[100] == "N") {
+                console.log("nothing available");
             } else {
                 beep(999, 200, 10000);
                 alert("THERE REALLY IS SOMETHING!!!");
