@@ -30,7 +30,7 @@ a=new AudioContext() // browsers limit the number of concurrent audio contexts, 
 	        for (let j = 0; j < 6; j++) {
 	            await sleep(2000);
 	            console.log("trial " + i + ", ping " + j);
-	            if (slots.innerHTML[221] == "N" || slots.innerHTML[221] == "W") {
+	            if (slots.innerHTML[221] == "N" || slots.innerText.length == 293) {
 	                console.log("nothing available")
                   } else {
 	                    beep(999, 200, 10000);
