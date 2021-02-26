@@ -24,3 +24,5 @@ Instructions:
 6. Open the browser console using Ctl+Shift+C on a PC or Cmd+Shift+C for a Mac
 7. Go to the console tab and copy, paste, and press Enter for the script below
 8. When an availability pops up, your computer should have a loud beep. Sometimes it doesn’t beep, but a dialog box will also appear in the browser. So it’s nice to keep an eye on it every now and then just in case it doesn’t beep
+
+If the script always beeps, trip changing line 33 in the code to something that works for your system.
