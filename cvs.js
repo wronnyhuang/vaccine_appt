@@ -25,7 +25,7 @@ var keepgoing = 1;
 async function letsGo() {
     for (let i = 0; i < 999999; i++) {
 		button.click();
-		for (let j = 0; j < 4; j++) {
+		for (let j = 0; j < 3; j++) {
 			await sleep(2000);
 			console.log("trial " + i + ", ping " + j);
 			var clinic_info = document.getElementsByClassName('clinic-info');
