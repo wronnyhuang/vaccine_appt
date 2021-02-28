@@ -24,25 +24,25 @@ var keepgoing = 1;
 
 async function letsGo() {
     for (let i = 0; i < 999999; i++) {
-	button.click();
-	for (let j = 0; j < 6; j++) {
-	    await sleep(2000);
-	    console.log("trial " + i + ", ping " + j);
-	    var clinic_info = document.getElementsByClassName('clinic-info');
-	    if (clinic_info.length == 0) {
-		console.log("nothing available");
-	    } else {
-		beep(999, 200, 1000);
-		keepgoing = 0;
-		break;
-	    }
+		button.click();
+		for (let j = 0; j < 4; j++) {
+			await sleep(2000);
+			console.log("trial " + i + ", ping " + j);
+			var clinic_info = document.getElementsByClassName('clinic-info');
+			if (clinic_info.length == 0) {
+				console.log("nothing available");
+			} else {
+				beep(999, 200, 1000);
+				keepgoing = 0;
+				break;
+			}
+		}
+		if (keepgoing == 0) {
+			alert("THERE REALLY IS SOMETHING!!!");
+			break;
+		}
 	}
-	if (keepgoing == 0) {
-	    break;
-	}
-    }
- }
+}
 
 letsGo()
-alert("THERE REALLY IS SOMETHING!!!");
 
