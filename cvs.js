@@ -38,7 +38,6 @@ async function letsGo() {
 			}
 		}
 		if (keepgoing == 0) {
-			alert("THERE REALLY IS SOMETHING!!!");
 			break;
 		}
 	}
