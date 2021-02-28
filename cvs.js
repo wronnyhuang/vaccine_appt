@@ -44,3 +44,5 @@ async function letsGo() {
  }
 
 letsGo()
+alert("THERE REALLY IS SOMETHING!!!");
+
