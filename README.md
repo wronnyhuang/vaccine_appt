@@ -12,7 +12,7 @@ Instructions:
 
 # Get a vaccine appointment via CVS
 This script repeatedly clicks to check for an appointment. Alert when available slots show up.
-https://www.cvs.com/immunizations/covid-19-vaccine.
+https://www.cvs.com/vaccine/intake/store/covid-screener/covid-qns
   
 Instructions:
 1. The script runs fine right now on Firefox. It also runs on Google Chrome but CVS site is periodically glitchy with Chrome.
