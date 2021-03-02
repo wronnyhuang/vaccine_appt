@@ -25,7 +25,7 @@ var keepgoing = 1;
 async function letsGo() {
     for (let i = 0; i < 999999; i++) {
 		button.click();
-	    	var num_seconds = Math.floor((Math.random() * 7) + 3);
+	    	var num_seconds = Math.floor((Math.random() * 20) + 3);
 		for (let j = 0; j < num_seconds; j++) {
 			await sleep(1000);
 			console.log("trial " + i + ", ping " + j);
